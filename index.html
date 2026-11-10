@@ -1,0 +1,255 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Anexos Computacionales | Modelo VRP</title>
+
+<style>
+:root {
+    --primary: #183153;
+    --secondary: #315b85;
+    --background: #f4f6fa;
+    --card: #ffffff;
+    --text: #263445;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: var(--background);
+    color: var(--text);
+}
+
+header {
+    background: var(--primary);
+    color: white;
+    padding: 45px 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0 0 12px;
+    font-size: 28px;
+}
+
+header p {
+    max-width: 750px;
+    margin: auto;
+    line-height: 1.6;
+    color: #e0e8f2;
+}
+
+main {
+    max-width: 1050px;
+    margin: 35px auto;
+    padding: 0 20px;
+}
+
+.intro {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.section {
+    background: var(--card);
+    border-radius: 12px;
+    padding: 24px;
+    margin-bottom: 24px;
+    box-shadow: 0 3px 12px rgba(0,0,0,.06);
+}
+
+.section h2 {
+    color: var(--primary);
+    border-bottom: 2px solid #e8edf3;
+    padding-bottom: 12px;
+}
+
+.experiment {
+    background: #f8fafd;
+    border-radius: 9px;
+    padding: 17px;
+    margin-top: 15px;
+}
+
+.experiment h3 {
+    margin-top: 0;
+    color: var(--secondary);
+}
+
+.links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.links a {
+    text-decoration: none;
+    background: var(--primary);
+    color: white;
+    padding: 11px 16px;
+    border-radius: 7px;
+    font-size: 14px;
+}
+
+.links a:hover {
+    background: var(--secondary);
+}
+
+footer {
+    text-align: center;
+    padding: 25px;
+    color: #68778a;
+    font-size: 13px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Anexos Computacionales</h1>
+    <p>
+        Resultados experimentales de la investigación sobre
+        optimización combinatoria y evaluación computacional
+        de algoritmos aplicados al problema de ruteo vehicular.
+    </p>
+</header>
+
+<main>
+
+<div class="intro">
+    <h2>Repositorio de resultados</h2>
+    <p>
+        Seleccione el algoritmo y el tipo de operación
+        para consultar los informes y mapas de rutas.
+    </p>
+</div>
+
+<!-- GLS -->
+<section class="section">
+<h2>1. Guided Local Search (GLS)</h2>
+
+<div class="experiment">
+<h3>Recogida</h3>
+<div class="links">
+<a href="GLS/recogida/informe_resultados_recogida_gls.html">Informe de resultados</a>
+<a href="GLS/recogida/mapa_rutas_gls.html">Mapa de rutas</a>
+</div>
+</div>
+
+<div class="experiment">
+<h3>Distribución</h3>
+<div class="links">
+<a href="GLS/distrib/informe_resultados_gls.html">Informe de resultados</a>
+<a href="GLS/distrib/mapa_rutas_gls.html">Mapa de rutas</a>
+</div>
+</div>
+
+<div class="experiment">
+<h3>Operación mixta</h3>
+<div class="links">
+<a href="GLS/mixto/informe_resultados_gls.html">Informe de resultados</a>
+<a href="GLS/mixto/mapa_rutas_gls.html">Mapa de rutas</a>
+</div>
+</div>
+</section>
+
+<!-- LNS -->
+<section class="section">
+<h2>2. Large Neighborhood Search (LNS)</h2>
+
+<div class="experiment">
+<h3>Recogida</h3>
+<div class="links">
+<a href="LNS/Recogida/informe_resultados_lns.html">Informe de resultados</a>
+<a href="LNS/Recogida/mapa_rutas_lns.html">Mapa de rutas</a>
+</div>
+</div>
+
+<div class="experiment">
+<h3>Distribución</h3>
+<div class="links">
+<a href="LNS/Distrib/informe_resultados_lns.html">Informe de resultados</a>
+<a href="LNS/Distrib/mapa_rutas_lns.html">Mapa de rutas</a>
+</div>
+</div>
+
+<div class="experiment">
+<h3>Operación mixta</h3>
+<div class="links">
+<a href="LNS/mixta/informe_resultados_lns.html">Informe de resultados</a>
+<a href="LNS/mixta/mapa_rutas_lns.html">Mapa de rutas</a>
+</div>
+</div>
+</section>
+
+<!-- GLS-LNS -->
+<section class="section">
+<h2>3. Modelo híbrido GLS-LNS</h2>
+
+<div class="experiment">
+<h3>Recogida</h3>
+<div class="links">
+<a href="GLS-LNS/recogida/informe_resultados_hibrido_gls_lns.html">Informe de resultados</a>
+<a href="GLS-LNS/recogida/mapa_rutas_hibrido_gls_lns.html">Mapa de rutas</a>
+</div>
+</div>
+
+<div class="experiment">
+<h3>Distribución</h3>
+<div class="links">
+<a href="GLS-LNS/distrib/informe_resultados_hibrido_gls_lns.html">Informe de resultados</a>
+<a href="GLS-LNS/distrib/mapa_rutas_hibrido_gls_lns.html">Mapa de rutas</a>
+</div>
+</div>
+
+<div class="experiment">
+<h3>Operación mixta</h3>
+<div class="links">
+<a href="GLS-LNS/mixto/informe_resultados_hibrido_gls_lns.html">Informe de resultados</a>
+<a href="GLS-LNS/mixto/mapa_rutas_hibrido_gls_lns.html">Mapa de rutas</a>
+</div>
+</div>
+</section>
+
+<!-- COMPARACION -->
+<section class="section">
+<h2>4. Comparación GLS frente a GLS-LNS</h2>
+
+<div class="experiment">
+<h3>Resultados GLS-LNS</h3>
+<div class="links">
+<a href="GLS%20contra%20GLS-LNS/GLS-LNS/recogidas/informe_resultados_hibrido_gls_lns.html">Informe de recogida</a>
+<a href="GLS%20contra%20GLS-LNS/GLS-LNS/recogidas/mapa_rutas_hibrido_gls_lns.html">Mapa de recogida</a>
+<a href="GLS%20contra%20GLS-LNS/GLS-LNS/mixto/informe_resultados_hibrido_gls_lns.html">Informe mixto</a>
+<a href="GLS%20contra%20GLS-LNS/GLS-LNS/mixto/mapa_rutas_hibrido_gls_lns.html">Mapa mixto</a>
+</div>
+</div>
+
+<div class="experiment">
+<h3>Resultados GLS</h3>
+<div class="links">
+<a href="GLS%20contra%20GLS-LNS/GLS/Recogidas/informe_resultados_gls.html">Informe de recogida</a>
+<a href="GLS%20contra%20GLS-LNS/GLS/Recogidas/mapa_rutas_gls.html">Mapa de recogida</a>
+<a href="GLS%20contra%20GLS-LNS/GLS/Mixto/informe_resultados_gls.html">Informe mixto</a>
+<a href="GLS%20contra%20GLS-LNS/GLS/Mixto/mapa_rutas_gls.html">Mapa mixto</a>
+</div>
+</div>
+</section>
+
+</main>
+
+<footer>
+    Investigación académica · Resultados computacionales del modelo VRP
+</footer>
+
+</body>
+</html>
+
